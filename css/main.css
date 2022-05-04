@@ -1,16 +1,13 @@
-.body {
-  background-color: #99b5b5;
-}
 .main {
-  margin: 5px auto;
+  background-color: #cbd3d3;
+}
+.header {
   background-color: #abc7c7;
-  text-align: center;
 }
 .menubutton {
   background: #c0c0c3;
   width: 100px;
-  height: 100px;
-  border-radius: 100%;
+  height: auto;
   margin-right: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
@@ -18,5 +15,4 @@
 .buttongoogle {
   width: 350px;
   text-align: left;
-  
 }
