@@ -3,7 +3,7 @@
     background-color: #e8eeef;
     padding: 80px 0px 0px 0px
 }
-pricing__page-name {
+.pricing__page-name {
     color: #50aab2;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;;
@@ -52,7 +52,7 @@ ul.prise_list-block-part {
     font-family: 'Rubik', sans-serif; 
 }
 .pricing__call-ico {
-        background-color: #d0df56;
+    background-color: #d0df56;
     width: 50px;
     height: 50px;
     border-radius: 50%;
