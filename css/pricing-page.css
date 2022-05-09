@@ -1,5 +1,4 @@
-/*Valeriy Sheplyakov start block*/
-.pricing__page {
+.pricing__page-block {
     background-color: #e8eeef;
     padding: 80px 0px 0px 0px
 }
@@ -23,9 +22,13 @@
     font-size: 19px;
     text-align: center;
 }
-ul.prise_list-block-part {
+.pricing__list-block-part {
     list-style: none;
 }
+.pricing__list-item {
+    list-style: none;
+}
+
 .pricing__name-door {
  color: #062a4d;
  font-size: 18px;
@@ -82,4 +85,3 @@ ul.prise_list-block-part {
 .pricing__contact-text-link:hover {
     text-decoration: underline;
 }
-/*Valeriy Sheplyakov end block*/
