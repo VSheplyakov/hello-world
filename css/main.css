@@ -1,6 +1,6 @@
 .background__img {
     height: fit-content;
-    padding: 165px 0px 340px;
+    padding: 100px 0px 150px 0px;
     background-repeat: no-repeat;
 }
 .companies__page-name {
@@ -34,4 +34,28 @@
     font-size: 32px;
     width: 350px;
     height: 250px; 
-}  
+}
+.pricing {
+    background-color: #e8eeef;
+    padding: 80px 0px 150px 0px
+}
+.pricing__page-name {
+    color: #50aab2;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;;
+    font-size: 12px;
+    height: 50px; 
+    text-align: center;   
+}
+.pricing__h1 {
+    color: #062a4d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+.pricing__h2 {
+    color: #385977;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
