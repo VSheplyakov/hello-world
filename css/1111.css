@@ -25,6 +25,8 @@
 .pricing__list-block-part {
     list-style: none;
 }
+
+
 .pricing__list-item {
     list-style: none;
 }
@@ -84,4 +86,34 @@
 }
 .pricing__contact-text-link:hover {
     text-decoration: underline;
+}
+/*new*/
+.pricing__line {
+    display: flex;
+    flex-wrap: wrap;
+    height: 18px;
+    border-bottom: 1px solid #000;
+    padding-top: 2px;
+    
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.pricing__name-line-from-cost-about-block{
+    display: grid;
+    grid-template-columns: max-content 1fr max-content 150px;
+    align-self: center;
+}
+.pricing__from-block {
+    align-self: center;
+    padding-top: 5px;
+}
+.pricing__ico-img {
+    width: 26px;
+}
+.pricing__list-item-block {
+    display: grid;
+    grid-template-columns: 26px 1fr;
+    gap: 2px;
+    align-self: center;
 }

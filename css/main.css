@@ -1,3 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;800&display=swap');
-@import url(companies-page.css);
-@import url(pricing-page.css);
+@import url(companies.css);
+@import url(pricing.css);
+
+:root {
+    font-family: 'Rubik', sans-serif;
+    --caption-color: #50aab2;
+    --title-color: #062a4d;
+    --subTitle-color: #385977;
+    --content-block-color: #e8eeef;
+    --content-block-background: url(..//img/background_about_us.svg);
+    --header-about-us-color: #062a4d;
+    --header-about-us-color-top-icon: #50aab2;
+}
