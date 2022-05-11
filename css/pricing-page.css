@@ -1,7 +1,12 @@
+.pricing_page {
+    background-color: #e6eef5;
+    margin-bottom: 30px;
+}
 .pricing_page-name {
     color: var( --caption-color);
     font-size: 12px;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 .pricing_title {
     color: var(--title-color);
@@ -31,7 +36,7 @@
     padding-top: 13px;
     padding-left: 13px;
     box-sizing: content-box;
-}
+}    
 .pricing_grid-icon {
     border-radius: 100%;
     background-color: #dae1e2;
@@ -79,6 +84,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 80px;
 }
 .pricing__call-ico {
     background-color: #d0df56;
@@ -111,4 +117,3 @@
 .pricing__contact-text-link:hover {
     text-decoration: underline;
 }
-
